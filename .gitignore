@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large files
+Recording_Chrome_Plugin_Multilanguage_Translator.mp4 

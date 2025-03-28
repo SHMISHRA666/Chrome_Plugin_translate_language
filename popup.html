@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi-Language Translator</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 5px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #revertButton {
+      background-color: #666;
+      margin-top: 10px;
+    }
+    #revertButton:hover {
+      background-color: #555;
+    }
+    #translationResults {
+      margin-top: 10px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .translation-item {
+      margin: 5px 0;
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Multi-Language Translator</h2>
+    <p>Select a language and highlight text to translate:</p>
+    <select id="languageSelect">
+      <option value="original">Original Text</option>
+      <option value="en">English</option>
+      <option value="de">German</option>
+      <option value="fr">French</option>
+      <option value="es">Spanish</option>
+      <option value="hi">Hindi</option>
+      <option value="ta">Tamil</option>
+      <option value="zh">Mandarin</option>
+      <option value="ja">Japanese</option>
+      <option value="fi">Finnish</option>
+      <option value="sv">Swedish</option>
+    </select>
+    <button id="translateButton">Translate Selected Text</button>
+  </div>
+  <div id="translationResults"></div>
+  <script src="popup.js"></script>
+</body>
+</html> 
