@@ -14,8 +14,4 @@ This plugin provides functionality for language translation features. The video 
 
 ## Getting Started
 
-More details about setup and usage will be added as needed.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+More details about setup and usage will be added as needed. 
